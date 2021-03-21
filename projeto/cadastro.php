@@ -59,6 +59,17 @@ session_start();
             </div>
         </div>
     </section>
+    <center>
+				<div class="section footer">
+				<div>
+					<h4>Desenvolvido com muito amor carinho ♥ </h4>
+					<h5>Copyright &copy; Lojas Vi-Nan - <span id="date"></span></h5>
+					<a href="https://www.facebook.com/Renaansanttos" target="_blank"> <img src="img/facebook.png" width="60" height="60"> </a>
+					<a href="https://www.instagram.com/renancom2nn/" target="_blank"> <img src="img/instagram.png" width="60" height="60"> </a>
+
+				</div>
+			
+	</center>
 </body>
 
 </html>

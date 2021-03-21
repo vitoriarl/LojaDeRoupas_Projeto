@@ -1,0 +1,78 @@
+body{
+    margin: 0px; 
+    background-color:#e9bbdd;
+}
+
+#menu ul{
+    margin:12px;
+    background-color:#eb81cf;
+    list-style: none; 
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif sans-serif;
+        
+}
+#menu ul li{
+    display: inline;
+    font-size: 23px;
+    
+}
+
+
+.barra{
+    background-color:#e47aab;
+    padding: 8px 25px;
+
+}
+
+
+#final ul li{
+    display: inline;
+    font-size: 18px;
+    
+}
+#final ul li a{
+    padding: 8px 25px; /* tamanho da barra*/
+    display: inline-block;
+
+    color:#66edffea;
+    text-decoration:none;
+    
+}
+#final ul li a:hover{
+    color: #cc7400;
+}
+
+.rodape{
+    background-color:#bd98b3;
+    padding: 8px 25px;
+    text-align: center;
+}
+.titulo{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif sans-serif;
+    text-align: center;
+}
+.contato{
+    display: flex;
+    justify-content: center;
+}
+.grupo{
+    width: 1000%;
+    max-width: 500px;
+}
+.formcontato{
+    display: flex;
+    flex-direction: column;
+}
+.field{
+    padding: 10px;
+    margin-bottom: 16px;
+    border:1px solid rgb(221, 221, 221);
+    border-radius: 5px ;
+    font-family: 'Times New Roman', Times, serif sans-serif ;
+    font-size: 15px;
+
+}
+.textarea{
+    height: 20px;
+}
