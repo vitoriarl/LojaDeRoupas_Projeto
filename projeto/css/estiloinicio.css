@@ -31,14 +31,13 @@ body{
     text-align: center;
     height: 30px;
     color: #e9bbdd;
-    font-weight
     font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #menu ul{
     margin: 0px;
-    background-color:red;
+    background-color:#e9bbdd;
     list-style: none;
 }
 
@@ -103,7 +102,7 @@ textarea{height: 150px;}
     font-weight: 700;
     padding: 10px;
     cursor: pointer;
-    background: red;
+    background: #e9bbdd;
     color: #fff;
     box-sizing: 0 5px 0 pink
     ;
@@ -129,7 +128,7 @@ textarea{height: 150px;}
     margin-bottom: 50px;
     border-style: groove;
     background-color: rgb(241, 253, 253);
-    border-color:  red;
+    border-color:  #e9bbdd;
 }
 
 
