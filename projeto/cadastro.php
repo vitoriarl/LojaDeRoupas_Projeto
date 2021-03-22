@@ -3,7 +3,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html>
-    
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,59 +17,70 @@ session_start();
 <body>
     <section class="hero is-success is-fullheight">
         <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="column is-4 is-offset-4">
-                    <h3 class="title has-text-grey">Sistema de Cadastro</h3>
-                    <h3 class="title has-text-grey"><a href="inicio.php" target="_blank">Loja de Roupas Vi-Nan</a></h3>
-                    <div class="notification is-success">
-                      <p>Faça login informando o seu usuário e senha <a href="index.php">aqui</a></p>
-                    </div>
-                    <div class="box">
-                        <form action="cadastrar.php" method="POST">
-                            <div class="field">
-                                <div class="control">
-                                    <input name="nome" type="text" class="input is-large" placeholder="Nome" autofocus>
+            <div>
+                <div id="menu">
+
+                    <ul>
+                        <center>
+                            <img src="img/vn.png" width="90px" height="100px">
+                            <li> LOJAS VI-NAN</li>
+                        </center>
+
+                    </ul>
+                </div></br>
+                <div class="container has-text-centered">
+                    <div class="column is-4 is-offset-4">
+                        <h3 class="title has-text-grey">Sistema de Cadastro</h3>
+                        <h3 class="title has-text-grey"><a href="inicio.php" target="_blank">Loja de Roupas Vi-Nan</a></h3>
+                        <div class="notification is-success">
+                            <p>Faça login informando o seu usuário e senha <a href="index.php">aqui</a></p>
+                        </div>
+                        <div class="box">
+                            <form action="cadastrar.php" method="POST">
+                                <div class="field">
+                                    <div class="control">
+                                        <input name="nome" type="text" class="input is-large" placeholder="Nome" autofocus>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="field">
-                                <div class="control">
-                                    <input name="email" type="text" class="input is-large" placeholder="Email" autofocus>
+                                <div class="field">
+                                    <div class="control">
+                                        <input name="email" type="text" class="input is-large" placeholder="Email" autofocus>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="field">
-                                <div class="control">
-                                    <input name="usuario" type="text" class="input is-large" placeholder="Usuário">
+                                <div class="field">
+                                    <div class="control">
+                                        <input name="usuario" type="text" class="input is-large" placeholder="Usuário">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="field">
-                                <div class="control">
-                                    <input name="cpf" type="text" class="input is-large" placeholder="CPF
+                                <div class="field">
+                                    <div class="control">
+                                        <input name="cpf" type="text" class="input is-large" placeholder="CPF
                                     ">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="field">
-                                <div class="control">
-                                    <input name="senha" class="input is-large" type="password" placeholder="Senha">
+                                <div class="field">
+                                    <div class="control">
+                                        <input name="senha" class="input is-large" type="password" placeholder="Senha">
+                                    </div>
                                 </div>
-                            </div>
-                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
-                        </form>
+                                <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <center>
-				<div class="section footer">
-				<div>
-					<h4>Desenvolvido com muito amor carinho ♥ </h4>
-					<h5>Copyright &copy; Lojas Vi-Nan - <span id="date"></span></h5>
-					<a href="https://www.facebook.com/Renaansanttos" target="_blank"> <img src="img/facebook.png" width="60" height="60"> </a>
-					<a href="https://www.instagram.com/renancom2nn/" target="_blank"> <img src="img/instagram.png" width="60" height="60"> </a>
+        <div class="section footer">
+            <div>
+                <h4>Desenvolvido com muito amor carinho ♥ </h4>
+                <h5>Copyright &copy; Lojas Vi-Nan - <span id="date"></span></h5>
+                <a href="https://www.facebook.com/Renaansanttos" target="_blank"> <img src="img/facebook.png" width="60" height="60"> </a>
+                <a href="https://www.instagram.com/renancom2nn/" target="_blank"> <img src="img/instagram.png" width="60" height="60"> </a>
 
-				</div>
-			
-	</center>
+            </div>
+
+    </center>
 </body>
 
 </html>

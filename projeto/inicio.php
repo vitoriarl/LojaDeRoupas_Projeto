@@ -14,7 +14,7 @@
     <div id="menu">
 
         <ul>
-            <img src="img/logo.png" width="60px" height="60px">
+        <img src="img/vn.png" width="90px" height="100px">
             <li> LOJAS VI-NAN</li>
         </ul>
 
@@ -22,6 +22,7 @@
             <center>
                 <li><a href="inicio.php">Produtos</a></li>
                 <li><a href="cadastrar.php">Cadastro</a></li>
+                <li><a href="carrinho.php">Carrinho</a></li>
                 <li><a href="contato.php">Contato</a></li>
         </ul>
         </center>
