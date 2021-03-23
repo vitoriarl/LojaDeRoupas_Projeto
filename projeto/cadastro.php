@@ -20,7 +20,7 @@ session_start();
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
                     <h3 class="title has-text-grey">Sistema de Cadastro</h3>
-                    <h3 class="title has-text-grey"><a href="inicio.php" target="_blank">Loja de Roupas Vi-Nan</a></h3>
+                    <h3 class="title has-text-grey"><a href="inicio.php" target="_blank">Voltar para o Inicio</a></h3>
                     <div class="notification is-success">
                       <p>Faça login informando o seu usuário e senha <a href="index.php">aqui</a></p>
                     </div>
