@@ -14,7 +14,7 @@ spl_autoload_register(function($classe){
 <body>
     <div id="menu">
         <ul>
-        <img src="img/vn.png" width="90px" height="100px">
+        <img src="img/logo.jpg" width="150px" height="100px">
             <li> LOJAS VI-NAN</li>
         </ul>
         <ul>
