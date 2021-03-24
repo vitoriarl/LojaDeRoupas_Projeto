@@ -14,12 +14,12 @@ spl_autoload_register(function($classe){
 <body>
     <div id="menu">
         <ul>
-        <img src="img/logo.jpg" width="150px" height="100px">
+        <img src="img/vn.png" width="150px" height="100px">
             <li> LOJAS VI-NAN</li>
         </ul>
         <ul>
             <center>
-                <li><a href="inicio.php">Produtos</a></li>
+                <li><a href="produtos.php">Produtos</a></li>
                 <li><a href="cadastrar.php">Cadastro</a></li>
                 <li><a href="carrinho.php">Carrinho</a></li>
                 <li><a href="contato.php">Contato</a></li>

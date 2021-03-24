@@ -19,6 +19,7 @@ USE `projeto`;
 -- Copiando estrutura para tabela projeto.forma
 CREATE TABLE IF NOT EXISTS `forma` (
   `id` int(11) NOT NULL,
+  `tamanho` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -88,7 +89,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
   `usuario_cpf` varchar(60) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0',
   `usuario_senha` varchar(32) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0',
   PRIMARY KEY (`usuario_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- Copiando dados para a tabela projeto.usuario: ~5 rows (aproximadamente)
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
